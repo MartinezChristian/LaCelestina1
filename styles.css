@@ -1,0 +1,49 @@
+body {
+    background-color: cornsilk;
+    font-family: "Georgia", sans-serif;
+    color: black;
+}
+
+h2 {
+    color: black;
+    font-family: "Georgia", serif;
+}
+
+nav ul {
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: red;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black
+}
+
+img {
+    border-radius: 30px;
+}
+
+.imagen_secundaria {
+    width: 300px;
+}
+
+.imagenes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
